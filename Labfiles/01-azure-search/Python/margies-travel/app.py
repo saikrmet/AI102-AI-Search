@@ -76,7 +76,7 @@ def search():
         results = search_query(search_text, filter_expression, sort_expression)
 
         # render the results
-        return render_template("search.html", search_results=results, search_terms=search_text)
+        return render_template("search.html", search_results=results, search_terms=search_text, sort_field=sort_field)
 
     except Exception as error:
         return render_template("error.html", error_message=error)
