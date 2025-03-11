@@ -9,12 +9,12 @@ Semantic ranking improves search results by using **language understanding**, en
 ## **How Semantic Ranking Works**  
 1. **BM25 selects the top 50 results.**  
 2. **Text fields are processed** (trimmed to 256 tokens).  
-3. **AI models analyze context** to determine relevance.  
-4. **Results are re-ranked** based on semantic meaning.  
+3. **AI comprehension models analyze context** to determine relevance and generate semantic caption.  
+4. **Results are re-ranked** based on the semantic caption's relevance to the user's query.  
 5. **Captions & answers (optional)** are extracted from documents.  
 
 ## **Semantic Captions & Answers**  
-- **Captions:** Highlight relevant text from documents.  
+- **Captions:** Verbatim sentences that best summarize the document.  
 - **Answers:** Provide direct responses if the query is a question.  
 
 ## **Limitations**  
